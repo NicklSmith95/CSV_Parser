@@ -8,7 +8,7 @@ namespace CSV
     {
         static void Main(string[] args)
         {
-            using (var reader = new StreamReader(@"C:/Users/Donation/Desktop/Learn C#/CSV/Example_CSVs/us-500.csv"))
+            using (var reader = new StreamReader(@"C:\Users\Donation\Desktop\Learn C#\CSV\Example_CSVs\us-500.csv"))
             {
                 List<string> firstName = new List<string>();
                 List<string> lastName = new List<string>();
